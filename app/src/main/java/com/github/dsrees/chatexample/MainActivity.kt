@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     }
   }
   private val params = hashMapOf("token" to "eyJhbGciOiJSUzI1NiIsImtpZCI6IjI0OTI2ZmFhODhjYTE0NWQ3NDY2YzJlMTIzYWNhNzkwNzY4MDAyZmY4ZmFmMzM4ZTI5Y2EiLCJ0eXAiOiJKV1QifQ.eyJjb250ZXh0Ijp7InVzZXIiOnsiaWQiOiJlZWR2d3I0ZiIsIm5hbWUiOiJyb3VnaF9ob3JzZSJ9LCJncm91cCI6ImlraHoxNWNjdTN4ZnUyNTJldnR1ZHMifSwic3ViIjoiMjAiLCJyb29tIjoib3Jtb3hndGxhaDIyZXBja255YmJraCIsImlhdCI6MTYxMzY0MDY1OSwiaXNzIjoic2FyaXNrYSIsImF1ZCI6Im1lZGlhX21lc3NhZ2luZ19zYXJpc2thIiwiZXhwIjoxNjEzNzI3MDU5fQ.JD8DBDO3ynBviKgZdIMs6imB2ZFrw2zSywpE7uBrchd3AFxcpydXoBQpoU-3HwGH19sVtZiIcyErbRBDITUYEExS8Klm9g_0QmLg4_1vnv0wXUGppT_pjm0dmMFTzMQ2zgmgVz4dXKi7kXCPuulmlw4NGms9gMgz1oFeQ0nz-cxy1KH11pmJjLCQHg2PK0vNW6pLfmodF5GpN1pRpFcqBcBitHfv2X-uGSyWViOTazq3XhsP3N-ZBfCg4EknLoVfOKGtYL7MpCVKPx4abG9FmsMh_CjrpyKWGrubWNnTnectWMgfO4g6TUL2tWqYUQph6ZM1DOyNBl9yfpJZbZTElg")
-  private val socket = Socket("wss://api.sariska.io/api/v1/messaging/websocket/websocket", params)
+  private val socket = Socket("wss://api.sariska.io/api/v1/messaging/websocket", params)
   private val topic = "chat:Chat10Feb"
 
   // Use when connecting to local server
